@@ -7,7 +7,7 @@
   <body>
     <header class="page-header" data-test="header">
       <a class="logo" href="#">
-        <img src="#" alt="Логотип Sedona.">
+        <img class="page-header-logo" src="images/logo.svg" alt="Логотип Sedona.">
       </a>
       <nav class="navigation">
         <ul class="navigation-list">
@@ -24,11 +24,13 @@
         <ul class="navigation-list navigation-user">
           <li class="navigation-item">
             <a class="navigation-link" href="#">
+              <img src="images/Vector_search.svg" alt="Поиск">
               <span class="visually-hidden">Поиск</span>
             </a>
           </li>
           <li class="navigation-item">
             <a class="navigation-link" href="#">
+              <img src="images/Vector_like.svg" alt="Лайки">
               <span class="visually-hidden">Лайки</span>
             </a>
           </li>
@@ -43,9 +45,9 @@
       <h1 class="visually-hidden">Седона</h1>
 
       <section class="hero" data-test="hero">
-        <h1 class="hero-title">SEDONA</h1>
-        <h2 class="hero-welcome">WELCOME — to the gorgeous —</h2>
-        <h2 class="hero-slogan">"Because the Grand Canyon sucks!"</h2>
+       <img class="index-background" src="images/index-background.jpg" width="1200" height="485" alt="Пейзаж Седоны">
+       <img class="welcome" src="images/welcome.svg" alt="Welcome to the gorgeous Sedona!">
+       <img class="divider" src="images/Vector_divider.svg" alt="">
       </section>
 
       <section class="intro">
@@ -61,12 +63,18 @@
             <p class="advantages-description">Все достопримечательности находятся очень близко</p>
           </li>
           <li class="advantages-item">
+            <img class="advantages-image" src="images/photo-1.jpg" alt="Город Седона">
+          </li>
+          <li class="advantages-item">
             <h3 class="advantages-title">КРАСИВАЯ ДОРОГА</h3>
             <p class="advantages-description">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
           </li>
           <li class="advantages-item">
             <h3 class="advantages-title">МАЛО ТУРИСТОВ</h3>
             <p class="advantages-description">Большинство едет в Гранд Каньон и толпится там</p>
+          </li>
+          <li class="advantages-item">
+            <img class="advantages-image" src="images/photo-2.jpg" alt="Мост Дьявола в Седоне">
           </li>
           <li class="advantages-item">
             <h3 class="advantages-title">ТАМ ЕСТЬ МОСТ ДЬЯВОЛА</h3>
@@ -86,21 +94,21 @@
         <ul class="services-list">
           <li class="services-item">
             <div class="services-icon">
-              <span class="visually-hidden">Иконка жилья</span>
+              <img src="images/house.svg" alt="Жильё">
             </div>
             <h3 class="services-item-title">ЖИЛЬЁ</h3>
             <p class="services-item-description">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
           </li>
           <li class="services-item">
             <div class="services-icon">
-              <span class="visually-hidden">Иконка еды</span>
+              <img src="images/food.svg" alt="Еда">
             </div>
             <h3 class="services-item-title">ЕДА</h3>
             <p class="services-item-description">Всегда заказывайте топовый фирменный бургер.</p>
           </li>
           <li class="services-item">
             <div class="services-icon">
-              <span class="visually-hidden">Иконка сувениров</span>
+              <img src="images/gift.svg" alt="Сувениры">
             </div>
             <h3 class="services-item-title">СУВЕНИРЫ</h3>
             <p class="services-item-description">Не только китайского, но и настоящего местного производства!</p>
@@ -136,17 +144,20 @@
         <ul class="footer-social-list">
           <li class="footer-social-item">
             <a class="button" href="#">
-              <span class="visually-hidden">Твиттер</span>
-            </a>
-          </li>
-          <li class="footer-social-item">
-            <a class="button" href="#">
+              <img src="images/social-vk.png" alt="ВКонтакте">
               <span class="visually-hidden">ВКонтакте</span>
             </a>
           </li>
           <li class="footer-social-item">
             <a class="button" href="#">
+              <img src="images/social-telegram.png" alt="Телеграм">
               <span class="visually-hidden">Телеграм</span>
+            </a>
+          </li>
+          <li class="footer-social-item">
+            <a class="button" href="#">
+              <img src="images/social-youtube.png" alt="YouTube">
+              <span class="visually-hidden">YouTube</span>
             </a>
           </li>
         </ul>
@@ -155,6 +166,7 @@
       <section class="footer-copyright">
         <h2 class="visually-hidden">Авторские права</h2>
         <a class="htmlacademy-link" href="https://htmlacademy.ru/">
+          <img src="images/HTML Academy.png" alt="HTML Academy">
           <span class="visually-hidden">HTML Academy</span>
         </a>
       </section>
